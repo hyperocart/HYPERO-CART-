@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hypero Cart</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: linear-gradient(to bottom right, #ffecd2, #fcb69f);
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: white;
+      text-decoration: none;
+    }
+    .logo {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .logo img {
+      width: 160px;
+      border-radius: 8px;
+    }
+    .banner {
+      text-align: center;
+      padding: 50px 20px;
+      background-color: #ffffffaa;
+    }
+    .banner h1 {
+      color: #e67e22;
+      font-size: 2.5rem;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 1rem;
+    }
+    .product {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      margin: 10px;
+      padding: 20px;
+      width: 200px;
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+    .product:hover {
+      transform: scale(1.05);
+    }
+    .product img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hypero Cart</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="cart.html">Cart</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Logo section -->
+  <div class="logo">
+    <img src="https://i.ibb.co/7tnsYpjc/hypero-cartlogo.png" alt="Hypero Cart Logo">
+  </div>
+
+  <!-- Banner -->
+  <section class="banner">
+    <h1>Welcome to Hypero Cart!</h1>
+    <p>Your one-stop shop for trendy and colorful deals 🛍️</p>
+  </section>
+
+  <!-- Product List -->
+  <section class="products">
+    <div class="product">
+      <img src="https://via.placeholder.com/200" alt="Product 1">
+      <h3>Stylish Watch</h3>
+      <p>$19.99</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/200" alt="Product 2">
+      <h3>Cool Sneakers</h3>
+      <p>$49.99</p>
+    </div>
+  </section>
+
+  <div class="footer">
+    &copy; 2025 Hypero Cart | All rights reserved.
+  </div>
+
+</body>
+</html>
